@@ -1,4 +1,6 @@
-  var data = [
+console.log("this works")  
+
+var data = [
     {"year": 1991, "name":"alpha", "value": 15},
     {"year": 1991, "name":"beta", "value": 10},
     {"year": 1991, "name":"gamma", "value": 5},
