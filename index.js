@@ -26,3 +26,10 @@ var data = [
     .x("year")
     .y("value")
     .draw()
+
+var mydata;
+$.getJSON("https://api.datausa.io/attrs/geo/04000US25/neighbors/", 
+).done(function(data) {
+    console.log(data);
+    mydata = data.data;
+});
